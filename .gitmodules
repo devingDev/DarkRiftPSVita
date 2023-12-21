@@ -1,0 +1,3 @@
+[submodule "DarkRiftProject/DarkRift"]
+    path = DarkRiftProject/DarkRift
+    url = git@github.com:DarkRiftNetworking/DarkRift.git

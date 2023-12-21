@@ -1,0 +1,54 @@
+[Trace]   DarkRiftServer        System Details:
+                                	OS: Microsoft Windows NT 10.0.19045.0
+                                	CLS Version: 5.0.17
+                                	DarkRift: 2.11.0.0
+[Trace]   PluginFactory         Created plugin 'BichannelListener'.
+[Trace]   HttpHealthCheck       HTTP health check started at 'http://localhost:10666/health'
+[Trace]   BadWordFilter         Downloading bad word list from 'https://darkriftnetworking.com/DarkRift2/Resources/BadWords.xml'.
+[Trace]   DarkRiftServer        Binding listeners to ClientManager as server is externally visible.
+[Trace]   RemoteServerManager   No server registry connector configured, skipping registration.
+[Trace]   DefaultNetworkListener Starting bichannel listener.
+[Info]    DefaultNetworkListener Server mounted, listening on port 4296.
+[Trace]   DefaultNetworkListener Accepted TCP connection from 192.168.178.51:61250.
+[Trace]   DefaultNetworkListener Accepted UDP connection from 192.168.178.51:50349.
+[Info]    ClientManager         New client [0] connected [192.168.178.51:61250|192.168.178.51:50349].
+[Warning] ClientManager         Client [0] has connected but none of your plugins have set a handler for the ClientConnected event. The client will remain connected.
+[Info]    ClientManager         Client [0] disconnected.
+[Trace]   DefaultNetworkListener Accepted TCP connection from 192.168.178.51:61254.
+[Trace]   DefaultNetworkListener Accepted UDP connection from 192.168.178.51:55319.
+[Info]    ClientManager         New client [1] connected [192.168.178.51:61254|192.168.178.51:55319].
+[Warning] ClientManager         Client [1] has connected but none of your plugins have set a handler for the ClientConnected event. The client will remain connected.
+[Info]    ClientManager         Client [1] disconnected.
+[Error]   BadWordFilter         Could not download bad word list from remote. The bad word filter cannot filter text without a source.
+                                
+                                Consider trying to reload the bad word list with the command 'badwordfilter update' or point the 'url' setting a an accessible source of bad words to filter (https://www.darkriftnetworking.com/DarkRift2/Docs/2.11.0//advanced/internal_plugins/bad_word_filter.html).
+                                 System.Net.WebException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. (darkriftnetworking.com:443)
+                                  ---> System.Net.Http.HttpRequestException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. (darkriftnetworking.com:443)
+                                  ---> System.Net.Sockets.SocketException (10060): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+                                    at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+                                    at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+                                    at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|283_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+                                    at System.Net.Http.HttpConnectionPool.DefaultConnectAsync(SocketsHttpConnectionContext context, CancellationToken cancellationToken)
+                                    at System.Net.Http.ConnectHelper.ConnectAsync(Func`3 callback, DnsEndPoint endPoint, HttpRequestMessage requestMessage, CancellationToken cancellationToken)
+                                    --- End of inner exception stack trace ---
+                                    at System.Net.Http.ConnectHelper.ConnectAsync(Func`3 callback, DnsEndPoint endPoint, HttpRequestMessage requestMessage, CancellationToken cancellationToken)
+                                    at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+                                    at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+                                    at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+                                    at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+                                    at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+                                    at System.Net.Http.HttpClient.SendAsyncCore(HttpRequestMessage request, HttpCompletionOption completionOption, Boolean async, Boolean emitTelemetryStartStop, CancellationToken cancellationToken)
+                                    at System.Net.HttpWebRequest.SendRequest(Boolean async)
+                                    at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+                                    --- End of inner exception stack trace ---
+                                    at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+                                    at System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+                                    at System.Net.WebClient.GetWebResponseTaskAsync(WebRequest request)
+                                    at System.Net.WebClient.DownloadBitsAsync(WebRequest request, Stream writeStream, AsyncOperation asyncOp, Action`3 completionDelegate)
+[Trace]   DefaultNetworkListener Accepted TCP connection from 192.168.178.32:51198.
+[Trace]   DefaultNetworkListener Connection attempt from 192.168.178.32:51198 timed out.
+[Trace]   DefaultNetworkListener Accepted TCP connection from 192.168.178.51:61433.
+[Trace]   DefaultNetworkListener Accepted UDP connection from 192.168.178.51:54906.
+[Info]    ClientManager         New client [2] connected [192.168.178.51:61433|192.168.178.51:54906].
+[Warning] ClientManager         Client [2] has connected but none of your plugins have set a handler for the ClientConnected event. The client will remain connected.
+[Info]    ClientManager         Client [2] disconnected.
