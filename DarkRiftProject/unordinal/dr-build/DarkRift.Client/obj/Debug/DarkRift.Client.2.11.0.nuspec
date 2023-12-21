@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>DarkRift.Client</id>
+    <version>2.11.0</version>
+    <authors>The DarkRift Community</authors>
+    <license type="expression">MPL-2.0</license>
+    <licenseUrl>https://licenses.nuget.org/MPL-2.0</licenseUrl>
+    <readme>README.md</readme>
+    <projectUrl>https://www.darkriftnetworking.com/</projectUrl>
+    <description>DarkRift Networking - High Performance Networking Library for .NET and Unity Games</description>
+    <copyright>Unordinal AB</copyright>
+    <tags>network udp tcp</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework3.5">
+        <dependency id="DarkRift" version="2.11.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="DarkRift" version="2.11.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Projects\UnityProjects\DarkRiftPSVita\DarkRiftProject\unordinal\dr-build\DarkRift.Client\bin\Debug\net3.5\DarkRift.Client.dll" target="lib\net35\DarkRift.Client.dll" />
+    <file src="C:\Projects\UnityProjects\DarkRiftPSVita\DarkRiftProject\unordinal\dr-build\DarkRift.Client\bin\Debug\net3.5\DarkRift.Client.xml" target="lib\net35\DarkRift.Client.xml" />
+    <file src="C:\Projects\UnityProjects\DarkRiftPSVita\DarkRiftProject\unordinal\dr-build\DarkRift.Client\bin\Debug\netstandard2.0\DarkRift.Client.dll" target="lib\netstandard2.0\DarkRift.Client.dll" />
+    <file src="C:\Projects\UnityProjects\DarkRiftPSVita\DarkRiftProject\unordinal\dr-build\DarkRift.Client\bin\Debug\netstandard2.0\DarkRift.Client.xml" target="lib\netstandard2.0\DarkRift.Client.xml" />
+    <file src="C:\Projects\UnityProjects\DarkRiftPSVita\DarkRiftProject\DarkRift\README.md" target="README.md" />
+  </files>
+</package>

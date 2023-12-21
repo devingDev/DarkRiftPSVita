@@ -1,0 +1,13 @@
+C:\Projects\UnityProjects\DarkRiftPSVita\DarkRiftProject\unordinal\dr-build\DarkRift.Server.Testing\bin\Debug\net4.5\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Projects\UnityProjects\DarkRiftPSVita\DarkRiftProject\unordinal\dr-build\DarkRift.Server.Testing\bin\Debug\net4.5\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Projects\UnityProjects\DarkRiftPSVita\DarkRiftProject\unordinal\dr-build\DarkRift.Server.Testing\bin\Debug\net4.5\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Projects\UnityProjects\DarkRiftPSVita\DarkRiftProject\unordinal\dr-build\DarkRift.Server.Testing\bin\Debug\net4.5\DarkRift.Server.Testing.dll
+C:\Projects\UnityProjects\DarkRiftPSVita\DarkRiftProject\unordinal\dr-build\DarkRift.Server.Testing\bin\Debug\net4.5\DarkRift.Server.Testing.pdb
+C:\Projects\UnityProjects\DarkRiftPSVita\DarkRiftProject\unordinal\dr-build\DarkRift.Server.Testing\obj\Debug\net4.5\DarkRift.Server.Testing.csproj.AssemblyReference.cache
+C:\Projects\UnityProjects\DarkRiftPSVita\DarkRiftProject\unordinal\dr-build\DarkRift.Server.Testing\obj\Debug\net4.5\DarkRift.Server.Testing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\UnityProjects\DarkRiftPSVita\DarkRiftProject\unordinal\dr-build\DarkRift.Server.Testing\obj\Debug\net4.5\DarkRift.Server.Testing.AssemblyInfoInputs.cache
+C:\Projects\UnityProjects\DarkRiftPSVita\DarkRiftProject\unordinal\dr-build\DarkRift.Server.Testing\obj\Debug\net4.5\DarkRift.Server.Testing.AssemblyInfo.cs
+C:\Projects\UnityProjects\DarkRiftPSVita\DarkRiftProject\unordinal\dr-build\DarkRift.Server.Testing\obj\Debug\net4.5\DarkRift.Server.Testing.csproj.CoreCompileInputs.cache
+C:\Projects\UnityProjects\DarkRiftPSVita\DarkRiftProject\unordinal\dr-build\DarkRift.Server.Testing\obj\Debug\net4.5\DarkRift.Server.Testing.csproj.CopyComplete
+C:\Projects\UnityProjects\DarkRiftPSVita\DarkRiftProject\unordinal\dr-build\DarkRift.Server.Testing\obj\Debug\net4.5\DarkRift.Server.Testing.dll
+C:\Projects\UnityProjects\DarkRiftPSVita\DarkRiftProject\unordinal\dr-build\DarkRift.Server.Testing\obj\Debug\net4.5\DarkRift.Server.Testing.pdb

@@ -1,0 +1,11 @@
+C:\Projects\UnityProjects\DarkRiftPSVita\DarkRiftProject\unordinal\dr-build\DarkRift\bin\Debug\netstandard2.0\DarkRift.deps.json
+C:\Projects\UnityProjects\DarkRiftPSVita\DarkRiftProject\unordinal\dr-build\DarkRift\bin\Debug\netstandard2.0\DarkRift.dll
+C:\Projects\UnityProjects\DarkRiftPSVita\DarkRiftProject\unordinal\dr-build\DarkRift\bin\Debug\netstandard2.0\DarkRift.pdb
+C:\Projects\UnityProjects\DarkRiftPSVita\DarkRiftProject\unordinal\dr-build\DarkRift\bin\Debug\netstandard2.0\DarkRift.xml
+C:\Projects\UnityProjects\DarkRiftPSVita\DarkRiftProject\unordinal\dr-build\DarkRift\obj\Debug\netstandard2.0\DarkRift.csproj.AssemblyReference.cache
+C:\Projects\UnityProjects\DarkRiftPSVita\DarkRiftProject\unordinal\dr-build\DarkRift\obj\Debug\netstandard2.0\DarkRift.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\UnityProjects\DarkRiftPSVita\DarkRiftProject\unordinal\dr-build\DarkRift\obj\Debug\netstandard2.0\DarkRift.AssemblyInfoInputs.cache
+C:\Projects\UnityProjects\DarkRiftPSVita\DarkRiftProject\unordinal\dr-build\DarkRift\obj\Debug\netstandard2.0\DarkRift.AssemblyInfo.cs
+C:\Projects\UnityProjects\DarkRiftPSVita\DarkRiftProject\unordinal\dr-build\DarkRift\obj\Debug\netstandard2.0\DarkRift.csproj.CoreCompileInputs.cache
+C:\Projects\UnityProjects\DarkRiftPSVita\DarkRiftProject\unordinal\dr-build\DarkRift\obj\Debug\netstandard2.0\DarkRift.dll
+C:\Projects\UnityProjects\DarkRiftPSVita\DarkRiftProject\unordinal\dr-build\DarkRift\obj\Debug\netstandard2.0\DarkRift.pdb
